@@ -1,0 +1,23 @@
+#1. Create a program that will give you the oppurtunity to input your favorite things
+#2. Create variables for the following categories, and give the user the oppurtunity to
+# input their choices. First ask the user their name.
+#3. favorite movie
+#4. favorite food
+#5. favorite sport
+#6. favorite color
+#7. favorite hobby
+#8. Now create a string called about_me that will create a sentence to tell everyone all about you using all the variables you just created
+#9. Now just print about_me to tell everyone about yourself!
+
+name = input("What is your name?")
+favorite_movie = input("What is your favorite movie?")
+favorite_food = input("What is your favorite food?")
+favorite_sport = input("What is your favorite sport?")
+favorite_color = input("What is your favorite color?")
+favorite_hobby = input("What is your favorite hobby?")
+
+
+about_me = "\nHello my name is " + name + ". My favorite movie is " + favorite_movie + ". I also like " + favorite_food + ", " + favorite_sport 
++ ",and " + favorite_hobby + ". Oh and my favorite color is " + favorite_color + ". Nice to meet you!"
+
+print(about_me)

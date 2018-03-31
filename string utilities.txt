@@ -1,0 +1,18 @@
+#1. Create a program to practice using functions to manipulate strings
+#2. Create a variable called word and make it any word you want, then print it out
+#3. Then use the title utility to make it capitalize the first letter
+#4. Then use the upper utility to capitalize every letter
+#5. Then create a second word that is all capital letters and print it out
+#6. Then use the lower utility to print out the word in all lower case letters
+
+word = "banana"
+
+
+print(word)
+print(word.title())
+print(word.upper())
+
+word2 = "APPLE"
+print(word2)
+
+print(word2.lower())

@@ -1,0 +1,26 @@
+#1. Lets create a program to find the average of test grades
+#2. Create 5 variables called test1, test2, test3, test4, and test5 and assign them values 1-100
+#3. Next we are going to create a data structure called a list, lets call it scores
+#4. Load all the tests into the list called scores
+#5. Now create a variable called total to get the sum of the scores, using the sum utility on the list
+#6. Now create a variable called length to get the total number of scores in the list.
+# Use the len utility on the list
+#7. Now the grade will equal total / length
+#8. Finally, print out your grade
+
+
+
+
+test1 = 55
+test2 = 87
+test3 = 85
+test4 = 90
+test5 = 77
+
+scores = [test1, test2, test3, test4, test5]
+
+total = sum(scores)
+length = len(scores)
+
+grade = total/length
+print("Your grade is: ", grade)

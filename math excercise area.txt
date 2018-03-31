@@ -1,0 +1,13 @@
+#1. Create a program to find the area of a rectangle
+#2. The length of the rectangle is 8
+#3. the width of the rectangle is 4
+#4. area of a rectangle is length * width
+#5. print the length and width, then print the area to the screen
+
+length = 8
+width = 4
+area = length * width
+
+print("length = ", length)
+print("width = ", width)
+print("area = ", area)

@@ -1,0 +1,14 @@
+#1. Create a program that will create two variables called first and last
+#2. Make first equal your first name and last equal your last name
+#3. Then create a variable called full_name that equals your first plus last
+#4. Print your full_name to the screen
+#5. Something is not quite right. Find a way to make a space between your first and last name
+#6. Finally, print your full_name to the screen
+
+first = "Jim"
+last = "Johnson"
+
+full_name = first + last
+print(full_name)
+full_name = first + " " + last
+print(full_name)

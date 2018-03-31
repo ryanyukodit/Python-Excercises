@@ -1,0 +1,44 @@
+#1. Create a guessing game program using input, a while loop and if statements
+#2. You must use the random library, so put import random at the top of your program
+#3. Ask the user for their name, and keep track of the number of guesses they have Take
+#4. If they take more than 6 tries to guess the number, end the game and tell them the number
+import random
+
+
+guesses_taken = 0
+
+print('Please enter your name:')
+
+my_name = input()
+
+number = random.randint(1, 20)
+
+print('\nWell, ' + my_name + ', I am thinking of a number between 1 and 20.')
+
+while guesses_taken < 6:
+  print('\nTake a guess: ')
+  guess = input()
+
+  guess = int(guess)
+
+  guesses_taken = guesses_taken + 1
+
+  if guess < number:
+    print('Your guess is too low.') 
+
+  if guess > number:
+    print('Your guess is too high.')
+
+  if guess == number:
+      break
+
+if guess == number:
+
+  guesses_taken = str(guesses_taken)
+  
+  print('Great job, ' + my_name + '! You guessed my number in ' + guesses_taken + ' guesses!')
+
+
+if guess != number:
+  number = str(number)
+  print('Nope. The number I was thinking of was ' + number)
