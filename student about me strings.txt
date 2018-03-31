@@ -1,0 +1,11 @@
+#1. Create a program that will give you the oppurtunity to input your favorite things
+#2. Create variables for the following categories, and give the user the oppurtunity to
+# input their choices. First ask the user their name.
+#3. favorite movie
+#4. favorite food
+#5. favorite sport
+#6. favorite color
+#7. favorite hobby
+#8. Now create a string called about_me that will create a sentence to tell everyone all about you using all the variables you just created
+#9. Now just print about_me to tell everyone about yourself!
+

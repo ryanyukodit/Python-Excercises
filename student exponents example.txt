@@ -1,0 +1,5 @@
+#1. Create a python program to practice exponents
+#2. Create a variable called num1 that is between 2-9
+#3. Then create a variable called exponent that is between 2-9
+#4. Now print out the value of num1 ** num2
+#5. Now print out the value of num2 ** num1

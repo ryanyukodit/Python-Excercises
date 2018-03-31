@@ -1,0 +1,15 @@
+#1. Create a program that will create two number variables
+#2. Use the input command to get values for the two numbers from the keyboard
+#3. Print the value of the numbers to the screen
+#4. Create a variable called addition and make it equal to your first number + your second number
+#5. Finally, print your sum variable to the screen
+
+#input example: number = input("Please enter a number:")
+
+x = int(input("Please enter the value of x:"))
+y = int(input("Please enter the value of y:"))
+
+print("x = ", x)
+print("y = ", y)
+addition = x + y
+print("The sum of", x, "+", y, "=" , addition)

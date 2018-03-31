@@ -1,0 +1,6 @@
+#1. Create a variable called stuff that will take input from the user
+#2. Then create a variable called more that will take input from the user
+#3. Then print more and stuff to the screen
+
+#Example: name = input("Please enter your name")
+

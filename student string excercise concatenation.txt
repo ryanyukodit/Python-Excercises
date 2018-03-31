@@ -1,0 +1,8 @@
+#1. Create a program that will create a string called word 1 that equals "backyard"
+#2. Then create another string called word2 that equals "frontdesk"
+#3. Then we want to use string concatenation to create a variable called word3 
+# that equals frontyard
+#4. Then create a string called word4 that equals backdesk
+#5. Then create a string called word5 that equals frontback
+#6. Finally, print out all your results
+

@@ -1,0 +1,11 @@
+
+#1. Create a program that has two integer variables with values of your choosing
+#2. Print them to the screen
+#3. Then create four variables called addition, subtraction, division, and multiplication
+#4. addition = number 1 + number 2
+#5. subtraction = number 1 - number 2
+#6. multiplication = number 1 - number 2
+#7. division = number 1 / number 2
+#8. Finally, print out the value of each variable using the print function
+
+#Example (print("multiplication =", multiplication)

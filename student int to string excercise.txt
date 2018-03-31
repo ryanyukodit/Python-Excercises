@@ -1,0 +1,9 @@
+#1. Write a program to turn a number into a string 
+#2. Create a variable called number1 that equals any number you want
+#3. Then create a variable called number2 that is any number you want
+#4. Now print the result if you add them together
+#5. Now use the str function to turn number1 and number2 into strings
+#6. Try printing number1 + number2 again. What happened?
+
+#Example: number = str(number)
+

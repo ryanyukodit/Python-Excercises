@@ -1,0 +1,6 @@
+#1. Create a guessing game program using input, a while loop and if statements
+#2. You must use the random library, so put import random at the top of your program
+#3. Ask the user for their name, and keep track of the number of guesses they have Take
+#4. If they take more than 6 tries to guess the number, end the game and tell them the number
+import random
+
